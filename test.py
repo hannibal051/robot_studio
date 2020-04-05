@@ -5,7 +5,7 @@ import numpy as np
 import random
 import math
 
-class Cheetah(object):
+class Cookie(object):
 	def __init__(self):
 		# self.pybullet_client = self._pybullet_client = bc.BulletClient(connection_mode=pybullet.GUI)
 		self.generation = 100
@@ -66,5 +66,5 @@ class Cheetah(object):
 
 
 if __name__ == '__main__':
-    env = Cheetah()
+    env = Cookie()
     env.step()
